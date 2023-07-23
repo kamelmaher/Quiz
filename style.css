@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Dosis:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eff1f7;
+    font-family: 'Cairo', sans-serif;
+}
+.quiz {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 500px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+}
+.data p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.data p:first-child  {
+    font-size: 15px;
+}
+.content {
+    padding: 0 10px;
+}
+.question {
+    font-size: 20px;
+    margin: 10px 0;
+}
+label {
+    display: inline-block;
+    width: 200px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    user-select: none;
+}
+button {
+    background-color: green;
+    color: white;
+    padding: 7px 25px;
+    font-size: 17px;
+    border-radius: 10%;
+    border: 0;
+    cursor: pointer;
+    float: right;
+}
+.result {
+    font-weight: 700;
+    display: none;
+    margin: 15px 0;
+    user-select: none;
+}
+.result p span {
+    padding: 0 7px;
+    color: rebeccapurple;
+    font-size: 15px;
+}
